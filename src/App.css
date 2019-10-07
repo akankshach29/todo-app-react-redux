@@ -1,22 +1,75 @@
 .App {
   text-align: center;
+  padding: 20px;
 }
-
-.App-logo {
-  height: 40vmin;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.todo-container {
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
-
-.App-link {
-  color: #09d3ac;
+.todo-style {
+  border: 1px solid lightgray;
+  box-shadow: 0 10px 10px 0 gray;
+  width: 35%;
+  padding: 20px;
+}
+.todos-list {
+  text-align: left;
+}
+form {
+  padding: 20px;
+}
+.input-style {
+  padding: 7px;
+  width: 240px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  font-size: 17px;
+}
+.pin-btn {
+  float: right;
+}
+.delete-btn {
+  float: right;
+  border: none;
+  background-color: transparent;
+  color: black;
+}
+.delete-btn-pinned {
+  border: none;
+  background-color: transparent;
+  color: black;
+}
+.pin-card {
+  border: 1px solid lightgrey;
+  padding: 10px;
+  box-shadow: 0 5px 5px 0 #888888;
+  margin-top: 5px;
+}
+h5 {
+  margin-block-start: 0px;
+  margin-block-end: 0px;
+}
+p {
+  margin-block-start: 3px;
+  margin-block-end: 3px;
+  font-size: 14px;
+}
+.list-style {
+  border-bottom: 1px solid gray;
+  padding: 15px;
+}
+.filter-btn {
+  padding: 20px;
+}
+button {
+  font-size: 14px;
+  background-color: #03a9f4c7;
+  color: white;
+  padding: 5px;
+  border-radius: 2px;
+}
+input:focus {
+  outline: none;
+  border-bottom-color: #03a9f4c7;
 }
